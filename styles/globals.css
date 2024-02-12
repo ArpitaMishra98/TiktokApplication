@@ -1,0 +1,135 @@
+body{
+  padding:0;
+  margin: 0;
+  min-height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  padding: 5px;
+}
+
+.appbar {
+  box-shadow: none;
+
+}
+
+.headitems {
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+}
+
+.items {
+  text-decoration: none;
+  color: rgb(243, 237, 237);
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.loginbox {
+  width: 400px;
+  margin: 50px auto;
+  border-radius: 20px;
+  padding: 30px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1); 
+}
+
+.loginForm {
+  text-align: center;
+}
+
+.loginForm .MuiTypography-root {
+  margin-bottom: 20px;
+  color: #333333;
+}
+
+.loginForm .MuiFormControl-root {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.loginForm .MuiInputBase-input {
+  font-size: 16px;
+}
+
+.loginForm .MuiFormLabel-root {
+  font-size: 14px;
+  color: #666666;
+}
+
+.loginForm .MuiOutlinedInput-root {
+  border-radius: 10px;
+}
+
+.loginForm .MuiButton-root {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 10px;
+  background-color: #4CAF50;
+  color: #ffffff;
+  transition: background-color 0.3s ease;
+}
+
+.loginForm .MuiButton-root:hover {
+  background-color: #45a049;
+}
+
+
+.videoupload{
+
+height: 300px;
+margin-top: 20px;
+ margin-left: 20px;
+ margin-right: 20px;
+ background: linear-gradient(90deg, rgb(162, 185, 224) 0%, rgb(139, 171, 201) 35%, rgba(199, 254, 239, 1) 100%);
+}
+
+ .videoplayback{
+  height: 500px;
+ margin-left: 20px;
+  margin-top: 20px;
+margin-right: 20px;
+background: #333333;
+}
+.videocomment{
+  height: 500px;
+  width: 400px;
+  border-radius: 50px 20px;
+  box-shadow: inset;
+ margin-bottom: 30px;
+ background: linear-gradient(90deg, rgb(43, 83, 53) 0%, rgb(100, 209, 174) 35%, rgb(145, 172, 219) 100%);
+}
+
+
+.viewcomment{
+  height: 500px;
+  width: 400px;
+  border-radius: 50px 20px;
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  background: linear-gradient(90deg, rgb(132, 195, 123) 0%, rgb(181, 230, 215) 35%, rgb(103, 222, 222) 100%);
+
+}
+
+.videoplaycom{
+  display: flex;
+  justify-content: space-around;
+}
+
+.commentbox{
+  display: flex;
+justify-content: space-around;
+
+}
+
+.videoplaycom{
+  background: linear-gradient(90deg, rgb(48, 50, 48) 0%, rgb(122, 123, 123) 35%, rgb(212, 215, 215) 100%);
+  }
